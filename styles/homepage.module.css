@@ -1,0 +1,6 @@
+.bgHead {
+  background-image: url("/assets/images/mubbg.jpg");
+  background-size: cover;
+  display: block;
+  background-position: center center;
+}

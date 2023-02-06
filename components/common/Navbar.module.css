@@ -1,0 +1,7 @@
+.category_menu {
+  background-color: var(--theme-deafult);
+
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,66 @@
+.backgroundHead{
+  background-color: rgb(253, 253, 253);
+  box-shadow: 10px 10px 10px 10px rgb(253, 253, 253);
+}
+.backgroundFull{
+  background-color: rgb(245, 245, 250);
+}
+.vendorPart{
+  padding-top: 10px;
+  background-color:white;
+}
+.backgroundCart{
+  background-color: white;
+}
+.totalPart{
+  background-color:rgb(245, 245, 250);
+}
+.cursorVendor{
+  cursor: pointer;
+}
+.textDelete{
+  color: red;
+}
+.tickImage {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  display: none;
+  max-width: 30%;
+}
+.disabled {
+  pointer-events: none;
+    opacity: 0.4;
+}
+.pointer{
+  opacity: 0.4;
+}
+.disabled2 {
+    opacity: 0.4;
+}
+.deleteUnavailable{
+  cursor: pointer;
+  color: blue
+}
+.paginateText {
+  color: red;
+  margin-left: 15px;
+}
+.unSelectAttr{
+  background-color:#fff5f5
+}
+.primaryBottomCard {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+}
+
+.bottomSticky {
+  position: sticky;
+  bottom: 0;
+}
+.shadow{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+}
+.trBox {
+  background-color: white;
+}

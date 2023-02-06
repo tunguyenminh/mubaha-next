@@ -1,0 +1,9 @@
+.cardBg {
+  background-color: white;
+}
+
+.ads {
+  /* height: 375px !important; */
+  /* padding: 10px; */
+  object-fit: cover;
+}

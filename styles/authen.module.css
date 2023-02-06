@@ -1,0 +1,124 @@
+.backgroundLogin{
+  /* background-color: #f89922; */
+  background-image: url("/assets/icon/1920x1080-01-01.jpg");
+  /* background-color: #f89922; */
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.marginForm{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 60%;
+  height: 650px;
+}
+.loginFormRight{
+  background-color:#fff;
+  border-start-end-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 10px 10px 10px 10px rgb(0 0 0 / 14%);
+  height: 100%;
+}
+.hideShowPassword{
+  position: absolute; 
+    margin: 12px;
+    left: 87%;
+    opacity: 0.7;
+  }
+  .hideShowPassword2{
+    position: absolute;
+    margin: 12px;
+    margin-left: 90%;
+    opacity: 0.7;
+  }
+  .iconPassword{
+    font-size: 30px;
+    color: #4e4d4a;
+  }
+  .textLink{
+    font-size: 13px
+  }
+  .textOr{
+    color: rgb(56, 50, 50);
+      padding: 0 1rem;
+      text-transform: uppercase;
+      font-size: .75rem;
+      text-align: center;
+  }
+  .textPolicies{
+    color: red
+  }
+  .textTitleOtp{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .textOtp{
+    text-align: center;
+  }
+  .textPhoneOtp{
+    font-size:20px;
+    text-align: center;
+  }
+  .alertOtp{
+    text-align: center;
+    height: auto
+  }
+  .formOtp{
+    background-color: #fff;
+    width: 50%;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+      border-radius: 0.25rem;
+      margin-top: 50px;
+      margin-bottom: 50px
+  }
+  .formPassword{
+    background-color: #fff;
+    width: 80%;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+      border-radius: 0.25rem;
+      padding-top: 50px;
+      padding-bottom: 50px
+  }
+  .imgAuthen{
+    width: 50%;
+    height: 50%;
+    border-start-start-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 10px 10px 10px 10px rgb(0 0 0 / 14%);
+    border-color:rgb(0 0 0 / 14%);
+  
+  }
+  .customImg {
+    object-fit: contain;
+    width: auto !important;
+    position: relative !important;
+    height: unset !important;
+  }
+
+  .unsetImg > div {
+    position: unset !important;
+  }
+  .header{
+    background-color: #fff;
+    height: 84px;
+    box-shadow: 0 6px 6px rgb(0 0 0 / 6%);
+    align-items: center;
+    display: flex;
+  }
+  .otpButton{
+    width: 400px;
+    letter-spacing: 0.05em;
+    border: 2px solid var(--theme-deafult);
+    background-image: -webkit-linear-gradient(30deg, var(--theme-deafult) 50%, transparent 50%);
+    background-image: linear-gradient(30deg, var(--theme-deafult) 50%, transparent 50%);
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    -webkit-transition: background 500ms ease-in-out;
+    transition: background 500ms ease-in-out;
+    display: block;
+  }

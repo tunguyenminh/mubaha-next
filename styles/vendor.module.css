@@ -1,0 +1,22 @@
+.boxVendor{
+  position: relative;
+    background-color: #fff;
+    height: 7.5rem;
+    padding: 0 1.5625rem;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 0.125rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    transition: transform .1s cubic-bezier(.4,0,.6,1),box-shadow .1s cubic-bezier(.4,0,.6,1);
+    cursor: pointer;
+}
+.iconSize{
+  width: 20px; height : 20px;
+  text-align: center;
+}
+.numberFormat{
+  color:#f89922
+}

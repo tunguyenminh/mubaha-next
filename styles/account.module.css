@@ -1,0 +1,80 @@
+.add_address button {
+  height: 3em;
+  align-items: center;
+  background-color: #f89922;
+  border-radius: 2px;
+  color: #ffffff;
+  display: flex;
+  padding: 0px 20px;
+  text-transform: capitalize;
+  border: none;
+}
+.note {
+  color: #f89922;
+  border: 1px solid #f89922;
+  font-size: 0.75rem;
+  padding: 2px 10px;
+  border-radius: 11px;
+  margin-left: 10px;
+}
+.box_function {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box_function a {
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #d9d9d9;
+}
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+.hr {
+  width: 100%;
+  border-top: 1px solid #00000026;
+  margin: 40px 0;
+}
+
+.box_function h6 {
+  display: flex;
+}
+.button_function {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background: #f5f5f5;
+  border: none;
+}
+.button_function:hover {
+  color: #000;
+  background: #f5f5f5;
+  border: none;
+  opacity: 0.8;
+}
+
+.button_add_address:hover {
+  color: #fff;
+  background-color: #f89922;
+  border-color: none;
+  opacity: 0.7;
+}
+.border {
+  height: 3px;
+  width: 100%;
+  background-position-x: -30px;
+  background-size: 116px 3px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #222222,
+    #222222 33px,
+    transparent 0,
+    transparent 41px,
+    #f89922 0,
+    #f89922 74px,
+    transparent 0,
+    transparent 82px
+  );
+}
